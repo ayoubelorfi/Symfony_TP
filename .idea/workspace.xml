@@ -33,6 +33,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -84,7 +85,8 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="PhpAnnotations.SettingsForm" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -114,7 +116,7 @@
       <workItem from="1574365825353" duration="2103000" />
       <workItem from="1574423478668" duration="5208000" />
       <workItem from="1574452487931" duration="664000" />
-      <workItem from="1574520936882" duration="291000" />
+      <workItem from="1574520936882" duration="729000" />
     </task>
     <servers />
   </component>

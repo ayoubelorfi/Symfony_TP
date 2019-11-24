@@ -1,21 +1,23 @@
 <?php
 namespace App\Controller;
 
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Component\Routing\Annotation\Route;
+//use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+//User Deprecated: The "Sensio\Bundle\FrameworkExtraBundle\Configuration\Route" annotation is deprecated since version 5.2. Use "Symfony\Component\Routing\Annotation\Route" instead.
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 
 class ArticleController extends AbstractController
 {
     /**
-     *  @Route("/")
+     *  @Route("/" , name="home")
      */
     public function homepage(){
-        return new Response('OMG my first page already ! ');
+        return $this->render('article/homepage.html.twig');
     }
 
     /**
-     *  @Route("/news/{name}-{id}")
+     *  @Route("/news/{name}-{id}", name="show")
      */
     public function show($name,$id){
         $comments=[

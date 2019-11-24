@@ -23,6 +23,7 @@ class ArticleController extends AbstractController
             'li content 2 ' ,
             'li content 3 '
         ];
+        //dump($name,$this);
         return $this->render("article/show.html.twig" ,[
             'title'=> ucwords(str_replace('-',' ',$name)),
             'id'=> $id,

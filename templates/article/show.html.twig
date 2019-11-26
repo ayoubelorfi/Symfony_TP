@@ -16,7 +16,7 @@
                                 <span class="pl-2 article-details"> 3 hours ago</span>
                                 <span class="pl-2 article-details">
                                     <span class="js-like-article-count">5</span>
-                                    <a href="#" class="fa fa-heart-o like-article js-like-article"></a>
+                                    <a href="{{ path('article_Like',{name:name,id:id}) }}" class="fa fa-heart-o like-article js-like-article"></a>
                                 </span>
                             </div>
                         </div>
@@ -97,4 +97,10 @@
         </div>
     </div>
 
+{% endblock %}
+
+
+{% block javascripts %}
+    {{ parent() }}
+    <script src="{{ asset('js/article_show.js') }}"></script>
 {% endblock %}
